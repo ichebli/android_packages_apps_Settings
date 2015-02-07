@@ -27,7 +27,6 @@
 
     <!-- Navigation Bar -->
     <string name="navigation_bar_title">Navigation bar</string>
-
     <!-- Navigation Bar Height -->
     <string name="navigation_bar_height">Navigation bar height</string>
     <string name="navigation_bar_height_48">48dp (default)</string>
@@ -39,6 +38,16 @@
     <string name="navigation_bar_height_24">24dp</string>
     <string name="navigation_bar_height_20">20dp</string>
     <string name="navigation_bar_height_0">0dp (hide)</string>
+    <!-- Navigation Bar Customization -->
+    <string name="navbar_customization_title">Buttons and layout</string>
+    <string name="navbar_customization_summary">Add and/or reorder buttons</string>
+    <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap save to commit your changes, or restore to reset the layout to default settings.</string>
+    <string name="navigation_restore_button_text">Restore\ndefaults</string>
+    <string name="navigation_edit_button_text">Edit</string>
+    <string name="navigation_save_button_text">Save</string>
+    <string name="navigation_bar_reset_message">Delete current settings and restore the default layout?</string>
+    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
+    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons while typing. Overrides IME switcher.</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
@@ -105,7 +114,7 @@
     <string name="volume_button_toggle_info">Volume rocker wake must be disabled</string>
 
     <!-- App Circle Sidebar -->
-    <string name="app_circle_bar_title">App sidebar</string>
+    <string name="app_circle_bar_title">App circle sidebar</string>
     <string name="app_circle_sidebar_summary_real">Launch apps faster from a sidebar and open multiple apps on one screen to multitask</string>
     <string name="app_circle_bar_summary">Show app launcher after touching right side of screen</string>
     <string name="app_circle_bar_included_apps_title">Included apps</string>
@@ -359,8 +368,6 @@
     <string name="qs_category_title">Quick Settings</string>
     <string name="qs_order_title">Select and order tiles</string>
     <string name="add_qs">Add new tile</string>
-    <string name="cast_screen">Cast screen</string>
-    <string name="hotspot">Hotspot</string>
     <string name="qs_action_delete">Delete</string>
     <string name="qs_action_add">Add</string>
     <string name="qs_action_no_more_tiles">No more tiles available</string>
@@ -369,12 +376,29 @@
     <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
     <string name="qs_advanced_location_title">Advanced location quick settings</string>
     <string name="qs_advanced_location_summary">Enable advanced settings for location in quick settings</string>
-    <string name="display_rotation_title">Rotation</string>
-    <string name="mobile_data">Mobile data</string>
+
+    <string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_bluetooth">Bluetooth</string>
+    <string name="qs_tile_display_inversion">Color inversion</string>
+    <string name="qs_tile_cellular_data">Data connection</string>
+    <string name="qs_tile_airplane_mode">Airplane mode</string>
+    <string name="qs_tile_display_rotation">Rotation</string>
+    <string name="qs_tile_flashlight">Flashlight</string>
+    <string name="qs_tile_location">Location</string>
+    <string name="qs_tile_cast_screen">Cast screen</string>
+    <string name="qs_tile_hotspot">Hotspot</string>
+    <string name="qs_tile_notifications">Notifications</string>
+    <string name="qs_tile_nfc">NFC</string>
+    <string name="qs_tile_compass">Compass</string>
+    <string name="qs_tile_headsup">Heads up</string>
+    <string name="qs_tile_data">Mobile data</string>
 
     <!-- Wifi detail view -->
     <string name="qs_wifi_detail_title">Detailed Wi\u2011Fi view</string>
     <string name="qs_wifi_detail_summary">Enable detailed view for Wi\u2011Fi in Quick Settings</string>
+
+    <!-- QuickSettings 4 columns -->
+    <string name="qs_four_columns_title">Show four tiles per row</string>
 
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Expanded desktop</string>
@@ -393,6 +417,9 @@
     <string name="lockscreen_default_target">Default</string>
     <string name="lockscreen_message">Tap an icon on the left or right to reassign a lock screen shortcut.</string>
     <string name="lockscreen_choose_action_title">Choose action</string>
+    <string name="lockscreen_message_disabled">Shortcuts are disabled.</string>
+    <string name="lockscreen_shortcuts_enabled">Lock screen shortcuts are enabled</string>
+    <string name="lockscreen_shortcuts_disabled">Lock screen shortcuts are disabled</string>
 
     <string name="profile_applist_title">Apps</string>
     <string name="picker_activities">Activities</string>
@@ -443,4 +470,41 @@
     <string name="status_bar_date_small">Small</string>
     <string name="status_bar_date_normal">Normal</string>
     <string name="status_bar_date_format_title">Date format</string>
+
+    <!-- BitSyko Layers  -->
+    <string name="bitsyko_layers">Layers</string>
+
+    <!-- QuickSettings collapse panel -->
+    <string name="quick_settings_collapse_title">Auto close panel</string>
+    <string name="quick_settings_collapse_summary">Close the quick settings panel upon toggle</string>
+
+    <!-- DPI settings -->
+    <string name="display_settings">Display</string>
+    <string name="display_settings_title">Display settings</string>
+    <string name="lcd_density">LCD density</string>
+    <string name="dialog_title_lcd_density">LCD density</string>
+    <string name="lcd_density_summary">xxx DPI</string>
+    <string name="custom_density_title">Change to whatever you like</string>
+    <string name="custom_density_summary">If you ever have compatibility issues with the Play Store, be sure to doublecheck if a Multi-DPI Play Store is installed</string>
+    <string name="custom_density_summary_invalid">"INVALID DENSITY!"</string>
+    <string name="custom_density">Custom</string>
+    <string name="set_custom_density_title">Set custom density</string>
+    <string name="set_custom_density_set">Set</string>
+    <string name="custom_density_dialog_title">WARNING!</string>
+    <string name="custom_density_dialog_summary">Changing your default LCD density can sometimes cause certain apps to not function properly and/or the playstore to show apps being incompatible with your device"</string>
+    <string name="dpi">DPI</string>
+    <string name="dialog_restart">Restart</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="custom_density_warning">Restart the system and apply selected density?</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Link ringtone &amp; notification volumes</string>
+    <string name="notification_volume_option_title">Notification volume</string>
+
+    <!-- Navigation bar button color -->
+    <string name="navbar_button_tint_title">Navigation button tint</string>
+
+    <!-- Doze pulse (ambient display) notification timeout -->
+    <string name="doze_timeout_title">Ambient display timeout</string>
+    <string name="doze_timeout_summary">Time that the screen stays on for notification pulse</string>
 </resources>

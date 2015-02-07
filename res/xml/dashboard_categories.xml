@@ -81,8 +81,19 @@
                 android:id="@+id/terminus_settings"
                 android:title="@string/terminus_settings_title"
                 android:fragment="com.android.settings.terminus.TerminusSettings"
-                android:icon="@drawable/ic_settings_terminus"
+                android:icon="@drawable/ic_terminus_logo"
                 />
+
+        <!-- BitSyko Layers App -->
+        <dashboard-tile
+                android:id="@+id/bitsyko_layers"
+                android:icon="@drawable/ic_layers"
+		android:title="@string/bitsyko_layers">     
+		<intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.bitsyko.overlaymanager"
+                    android:targetClass="org.bitsyko.overlaymanager.main" />
+        </dashboard-tile>
 
     </dashboard-category>
 
