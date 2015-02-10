@@ -46,6 +46,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 .getApplicationContext().getContentResolver(),
                 Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0) == 1));
         mStatusBarQuickQsPulldown.setOnPreferenceChangeListener(this);
+        
+        removePreference("status_bar_network_traffic");
     }
 
     @Override
